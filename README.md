@@ -1,7 +1,7 @@
-FilmBase
+## FilmBase
 FilmBase is a simple movie search application built with React. It allows users to search for movies using the OMDb API and displays the search results in a responsive grid layout.
 
-Installation
+# Installation
 Clone the repository:
 
 bash
@@ -11,19 +11,19 @@ Navigate to the project directory:
 
 bash
 Copy code
-cd filmbase
+```cd filmbase```
 Install the dependencies:
 
 Copy code
-npm install
+```npm install```
 Start the development server:
 
 sql
 Copy code
-npm start
+```npm start```
 Open your browser and visit http://localhost:3000 to access the application.
 
-Usage
+# Usage
 Upon launching the application, you will see the FilmBase logo and a search bar.
 
 Enter a movie title in the search bar and press Enter or click the search icon.
@@ -51,7 +51,7 @@ index.js: The entry point of the application.
 API Usage
 FilmBase utilizes the OMDb API (http://www.omdbapi.com/) to retrieve movie data. It uses the following endpoint:
 
-Endpoint: http://www.omdbapi.com/
+# Endpoint: http://www.omdbapi.com/
 Parameters:
 i: IMDb ID of the movie.
 apikey: Your OMDb API key.
